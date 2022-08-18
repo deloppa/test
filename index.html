@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First lection</title>
+    <style>
+        span {
+        }
+        .box {
+            
+        }
+    </style>
+</head>
+<body>
+    <header>
+        
+            <span>hello</span>
+                <div class="box">hello</div>
+       
+        
+
+        <table>
+            <tr>
+                <td><img src="img/icon.jpg" alt="logo" width="100"></td>
+                <td><h1>Integrated business systems & services</h1></td>
+            </tr>
+        </table>
+        <img src="img/icon.jpg" alt="logo" width="100">
+        <h1>Integrated business systems & services</h1>
+    </header>
+
+    <body>
+        <table>
+            <colgroup>
+            <col style="background-color: blueviolet;">
+            <col span="2" style="background-color: cornflowerblue;">
+        </colgroup>
+            <tr>
+                <th>№</th>
+                <th>Name</th>
+                <th>Surname</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Yulia</td>
+                <td>Bakun</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Artem</td>
+                <td>Bakun</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Igor</td>
+                <td>Bakun</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Sveta</td>
+                <td>Bakun</td>
+            </tr>
+        </table>
+
+        <br>
+
+        <form action="https://www.w3schools.com/tags/tag_map.asp" target="_blank" method="post">
+            <table>
+                
+                <tr>
+                    <td><span>Enter your name</span></td>
+                    <td><input type="text" name="first_name" autofocus="true" required="true" autocomplete="on" placeholder="Enter your name"></td>
+                </tr>
+                <tr>
+                    <td><span>Enter your surname</span></td>
+                    <td><input type="text" name="second_name" disabled="true"></td>
+                </tr>
+            </table>
+
+            <p>Choose your hobby</p>
+            <input type="radio" name="hobby">Singing<br>
+            <input type="radio" name="hobby">Dancing<br>
+            <input type="radio" name="hobby">Reading<br>
+            <input type="radio" name="hobby">Playing<br>
+
+            <p>Choose your hobby</p>
+            <input type="checkbox" checked="true" name="hobby">Singing<br>
+            <input type="checkbox" name="hobby">Dancing<br>
+            <input type="checkbox" name="hobby">Reading<br>
+            <input type="checkbox" name="hobby">Playing<br>
+
+            <input type="button" value="Submit"><br>
+
+            <input type="color" ><br>
+
+            <input type="date" name="" id=""><br>
+
+            <input type="datetime-local" name="" id=""><br>
+
+            <input type="password" size="5" name="" id="">
+
+            <input type="time">
+
+            <input type="file" name="" id="">
+
+            <input type="search" name="" id="">
+
+            <input type="reset" value="clear">
+
+            <!-- // Атрибуты -->
+
+            <!-- formaction - адрес обработчика программы 
+            formenctype - способ кодирования данных формы при их отправке на сервер
+            formmethod - атрибут сообщает браузеру, каким методом следует передавать данные формы на сервер
+            formnovalidate - отменяет встроенную проверку данных введённых пользователем в форме на корректность перед отправкой формы
+            formtarget - определяет имя фрейма, в которое будет загружаться результат, возвращаемый обработчиком формы в виде HTML-документа -->
+
+        </form>
+
+        <ol>
+            <li>
+                <a href="#" target="_blank">Link 1</a>
+            </li>
+            <li>
+                <a href="#" target="_self">Link 2</a>
+            </li>
+            <li>
+                <a href="#">Link 3</a>
+            </li>
+            <li>
+                <a href="#">Link 4</a>
+            </li>
+        </ol>
+
+        <ul>
+            <li type="square">
+                <a href="#">Link 1</a>
+            </li>
+            <li type="circle"> 
+                <a href="#">Link 2</a>
+            </li>
+            <li>
+                <a href="#">Link 3</a>
+            </li>
+            <li>
+                <a href="#">Link 4</a>
+            </li>
+        </ul>
+
+        <map name="primary">
+            <area shape="circle" coords="75,75,75" href="https://www.w3schools.com/tags/tag_map.asp" target="_blank" alt="map">
+            <area shape="circle" coords="275,75,75" href="https://www.w3schools.com/tags/tag_map.asp" target="_blank" alt="map">
+        </map>
+
+        <img usemap="#primary" src="img/watershed.jpg" alt="watershed" width="400">
+
+
+
+        <picture>
+            <source media="(min-width: 650px)" srcset="img/watershed.jpg">
+            <source media="(min-width: 445px)" srcset="img/пулфорд.jpg">
+            <img src="img/icon.jpg" alt="Flowers" style="width:auto;">
+        </picture>
+
+    </body>
+    
+</body>
+</html>
